@@ -1,12 +1,162 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 
-const title = "Players Club - Releases";
+const title = "Leonardo de la Fuente - Releases";
 ---
 
 <BaseLayout title={title}>
   <div class="content content--page">
     <h1>Releases</h1>
-    <p>This is just an example page</p>
+    <p>
+      Bienvenido a la sección de lanzamientos de Leonardo de la Fuente. Aquí
+      podrás descubrir las últimas colecciones de fotografías de stock,
+      colaboraciones con marcas y cursos de formación para fotógrafos.
+    </p>
+
+    <section class="releases-list">
+      <article class="release-item">
+        <img
+          src="https://via.placeholder.com/300x200?text=Lanzamiento+1"
+          alt="Nueva colección de Fotografía de Producto"
+          class="release-image"
+        />
+        <div class="release-content">
+          <h2>Nueva Colección de Fotografía de Producto</h2>
+          <p>
+            Una serie de imágenes enfocadas en productos tecnológicos,
+            diseñadas para potenciar tus campañas de marketing y catálogos
+            en línea. Disponible en varios bancos de stock.
+          </p>
+          <a href="#" class="btn-release">Ver Detalles</a>
+        </div>
+      </article>
+
+      <article class="release-item">
+        <img
+          src="https://via.placeholder.com/300x200?text=Lanzamiento+2"
+          alt="Colección de Lifestyle Urbano"
+          class="release-image"
+        />
+        <div class="release-content">
+          <h2>Colección de Lifestyle Urbano</h2>
+          <p>
+            Capturas realistas de la vida cotidiana en Valencia, ideales para
+            campañas publicitarias que requieran un toque humano y cercano.
+          </p>
+          <a href="#" class="btn-release">Ver Detalles</a>
+        </div>
+      </article>
+
+      <article class="release-item">
+        <img
+          src="https://via.placeholder.com/300x200?text=Lanzamiento+3"
+          alt="Curso Online de Retoque Fotográfico"
+          class="release-image"
+        />
+        <div class="release-content">
+          <h2>Curso Online de Retoque Fotográfico</h2>
+          <p>
+            Un nuevo curso centrado en la edición profesional de fotografías,
+            perfecto para quienes quieren destacar en los bancos de imágenes 
+            y en proyectos comerciales.
+          </p>
+          <a href="#" class="btn-release">Más Información</a>
+        </div>
+      </article>
+
+      <article class="release-item">
+        <img
+          src="https://via.placeholder.com/300x200?text=Lanzamiento+4"
+          alt="Colección Especial: Valencia Nocturna"
+          class="release-image"
+        />
+        <div class="release-content">
+          <h2>Colección Especial: Valencia Nocturna</h2>
+          <p>
+            Una serie de fotografías que retratan la magia de Valencia al
+            anochecer, desde su arquitectura moderna hasta sus rincones más
+            tradicionales.
+          </p>
+          <a href="#" class="btn-release">Ver Detalles</a>
+        </div>
+      </article>
+    </section>
   </div>
+
+  <style>
+    .content {
+      padding: 1rem;
+    }
+
+    .releases-list {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+
+    /* Estilo para cada elemento de la lista de lanzamientos */
+    .release-item {
+      display: flex;
+      flex-direction: column;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      overflow: hidden;
+      background-color: #fff;
+      transition: box-shadow 0.3s ease;
+    }
+
+    .release-item:hover {
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .release-image {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      display: block;
+    }
+
+    .release-content {
+      padding: 1rem;
+    }
+
+    .release-content h2 {
+      margin-top: 0;
+      font-size: 1.25rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .release-content p {
+      margin-bottom: 1rem;
+      color: #555;
+    }
+
+    .btn-release {
+      display: inline-block;
+      background-color: #0070f3;
+      color: #fff;
+      padding: 0.5em 1em;
+      border-radius: 4px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .btn-release:hover {
+      background-color: #0059c2;
+    }
+
+    /* Ajustes responsivos */
+    @media (min-width: 768px) {
+      .releases-list {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (min-width: 1024px) {
+      .releases-list {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+  </style>
 </BaseLayout>

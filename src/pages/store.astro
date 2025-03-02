@@ -1,12 +1,136 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 
-const title = "Players Club - Store";
+const title = "Leonardo de la Fuente - Store";
 ---
 
 <BaseLayout title={title}>
   <div class="content content--page">
-    <h1>Store</h1>
-    <p>This is just an example page</p>
+    <h1 class="store-title">Tienda de Fotografía</h1>
+    <p class="store-subtitle">
+      Bienvenido a la tienda de Leonardo de la Fuente, donde encontrarás productos de fotografía y recursos esenciales para llevar tus capturas al siguiente nivel.
+    </p>
+    
+    <section class="products-grid">
+      {/* PRODUCTO 1 */}
+      <article class="product-card">
+        <img 
+          src="https://via.placeholder.com/300x200?text=Kit+de+Iluminaci%C3%B3n" 
+          alt="Kit de Iluminación de Estudio" 
+          class="product-image" 
+        />
+        <h2 class="product-name">Kit de Iluminación de Estudio</h2>
+        <p class="product-description">
+          Incluye focos de luz continua, softbox y reflectores para sesiones de producto o retrato. Mejora la calidad de tus tomas con iluminación profesional.
+        </p>
+        <div class="product-price">€129.99</div>
+        <button class="btn-buy">Comprar</button>
+      </article>
+
+      {/* PRODUCTO 2 */}
+      <article class="product-card">
+        <img 
+          src="https://via.placeholder.com/300x200?text=C%C3%A1mara+Mirrorless" 
+          alt="Cámara Mirrorless Avanzada" 
+          class="product-image" 
+        />
+        <h2 class="product-name">Cámara Mirrorless Avanzada</h2>
+        <p class="product-description">
+          Sensor de alta resolución para capturar detalles asombrosos y video 4K. Ideal para fotos de stock y proyectos de producto.
+        </p>
+        <div class="product-price">€899.99</div>
+        <button class="btn-buy">Comprar</button>
+      </article>
+
+      {/* PRODUCTO 3 */}
+      <article class="product-card">
+        <img 
+          src="https://via.placeholder.com/300x200?text=Pack+de+Fondos" 
+          alt="Pack de Fondos de Colores" 
+          class="product-image" 
+        />
+        <h2 class="product-name">Pack de Fondos de Colores</h2>
+        <p class="product-description">
+          Varios fondos en tonos neutros y vibrantes para realzar tus fotos de producto o retratos. Fácil de montar y guardar.
+        </p>
+        <div class="product-price">€49.99</div>
+        <button class="btn-buy">Comprar</button>
+      </article>
+
+      {/* PRODUCTO 4 */}
+      <article class="product-card">
+        <img 
+          src="https://via.placeholder.com/300x200?text=Curso+Online+Edici%C3%B3n" 
+          alt="Curso de Edición Fotográfica Online" 
+          class="product-image" 
+        />
+        <h2 class="product-name">Curso de Edición Fotográfica Online</h2>
+        <p class="product-description">
+          Aprende técnicas de retoque y postproducción para destacar tus imágenes en los bancos de stock. Acceso de por vida a los materiales.
+        </p>
+        <div class="product-price">€79.99</div>
+        <button class="btn-buy">Comprar</button>
+      </article>
+    </section>
   </div>
+
+  <style>
+    .store-title {
+      font-size: 2rem;
+      margin-bottom: 0.5em;
+      text-align: center;
+    }
+    .store-subtitle {
+      text-align: center;
+      margin-bottom: 2em;
+      color: #666;
+    }
+    .products-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 1.5rem;
+      padding: 0 1rem;
+    }
+    .product-card {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 1em;
+      text-align: center;
+      transition: box-shadow 0.3s ease;
+      background-color: #fff;
+    }
+    .product-card:hover {
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+    .product-image {
+      max-width: 100%;
+      border-radius: 4px;
+      margin-bottom: 1em;
+    }
+    .product-name {
+      font-size: 1.1rem;
+      margin: 0.5em 0;
+    }
+    .product-description {
+      font-size: 0.95rem;
+      color: #555;
+      margin-bottom: 0.5em;
+    }
+    .product-price {
+      font-weight: bold;
+      margin-bottom: 1em;
+      color: #333;
+    }
+    .btn-buy {
+      background-color: #0070f3;
+      color: #fff;
+      padding: 0.5em 1em;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .btn-buy:hover {
+      background-color: #0059c2;
+    }
+  </style>
 </BaseLayout>

@@ -1,10 +1,10 @@
 ---
-name: "Luna Delgado"
-stage_name: "Luna Deluxe"
-genre: "Disco-Pop"
-image: 
-    src: "/images/artists/luna_deluxe.webp"
-    alt: "Luna Deluxe holding a vinyl record, styled with bold gold accessories and a shimmering pink outfit, exuding retro glamour with a modern twist."
+name: "EOS 1100D"
+stage_name: "Canon"
+genre: "Exterior"
+image:
+  src: "./src/assets/images/maquillaje.webp"
+  alt: "Amarié with a bold and mysterious presence under dramatic lighting"
 ---
 
 Luna Delgado, professionally known as Luna Deluxe, is a radiant star in the **Disco-Pop** scene. With her infectious grooves and sultry vocals, Luna reinvents the golden age of disco for a new generation, blending it with modern pop sensibilities. Her style is bold, unapologetic, and irresistibly glamorous.

@@ -3,7 +3,7 @@ name: "Ilustrator"
 stage_name: "Adobe"
 genre: "#406231"
 image:
-  src: "./src/assets/images/studio.webp"
+  src: "/images/artists/studio.webp"
   alt: "Amarié with a bold and mysterious presence under dramatic lighting"
 ---
 

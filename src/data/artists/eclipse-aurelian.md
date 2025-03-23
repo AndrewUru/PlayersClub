@@ -3,7 +3,7 @@ name: "Reflex D-7000"
 stage_name: "Nikon"
 genre: "Ambiente"
 image:
-  src: "./src/assets/images/studio4.webp"
+  src: "/images/artists/studio4.webp"
   alt: "Eclipse Aurelian in a sharp corduroy suit, radiating mystery and refinement under moody lighting"
 ---
 

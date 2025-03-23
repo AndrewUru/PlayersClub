@@ -3,7 +3,7 @@ name: "EOS 1100D"
 stage_name: "Canon"
 genre: "Ambiente"
 image:
-  src: "./src/assets/images/cookies3.webp"
+  src: "/images/artists/cookies3.webp"
   alt: "Amarié with a bold and mysterious presence under dramatic lighting"
 ---
 

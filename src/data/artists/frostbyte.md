@@ -3,7 +3,7 @@ name: "Reflex D-7000"
 stage_name: "Nikon"
 genre: "Exterior"
 image:
-  src: "./src/assets/images/cookies2.webp"
+  src: "/images/artists/cookies2.webp"
   alt: "Amarié with a bold and mysterious presence under dramatic lighting"
 ---
 

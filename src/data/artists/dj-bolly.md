@@ -3,7 +3,7 @@ name: "Reflex D-7000"
 stage_name: "Nikon"
 genre: "Ambiente"
 image:
-  src: "./src/assets/images/donuts.webp"
+  src: "/images/artists/donuts.webp"
   alt: "DJ Bolly mixing tracks at a high-energy rooftop party"
 ---
 

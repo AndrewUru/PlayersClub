@@ -3,7 +3,7 @@ name: "EOS 1100D"
 stage_name: "Canon"
 genre: "Exterior"
 image:
-  src: "./src/assets/images/faustino.webp"
+  src: "/images/artists/faustino.webp"
   alt: "Amarié with a bold and mysterious presence under dramatic lighting"
 ---
 

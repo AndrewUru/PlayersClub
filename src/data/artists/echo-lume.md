@@ -3,7 +3,7 @@ name: "Ilustrator"
 stage_name: "Adobe"
 genre: "#22A391 "
 image:
-  src: "./src/assets/images/studio1.webp"
+  src: "/images/artists/studio1.webp"
   alt: "Echo Lume performing under neon lights"
 ---
 

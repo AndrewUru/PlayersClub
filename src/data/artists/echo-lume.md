@@ -1,14 +1,26 @@
 ---
-name: "EOS 1100D"
-stage_name: "Canon"
-genre: "Ambiente"
+name: "Ilustrator"
+stage_name: "Adobe"
+genre: "#22A391 "
 image:
   src: "./src/assets/images/studio1.webp"
   alt: "Echo Lume performing under neon lights"
 ---
 
-Evelyn Harper, better known by her stage name Echo Lume, is a visionary artist in the synthwave genre. Drawing inspiration from the neon-soaked aesthetics of the 1980s, she crafts atmospheric tracks that transport listeners to a cyberpunk dreamscape.
+🎨 Color: #22A391 — “Turquesa Vital”
 
-Raised in the bustling streets of Chicago, Evelyn was surrounded by a vibrant music scene that fueled her passion for electronic melodies. After experimenting with various genres, she found her true calling in synthwave, blending nostalgic retro sounds with a modern twist. Her debut album, _Neon Dreams_, garnered critical acclaim for its cinematic quality and hauntingly beautiful synth lines.
+Historia técnica del color:
 
-When she’s not creating music, Evelyn is an advocate for digital art and often collaborates with visual artists to create immersive multimedia experiences. Echo Lume’s live performances are renowned for their electrifying energy, blending music, lights, and visuals into unforgettable spectacles.
+Este tono —hexadecimal #22A391— pertenece a la familia de los verdes azulados, con un balance vibrante entre calma y energía. Es un color que se sitúa estratégicamente entre el verde esmeralda y el cian puro, evocando sensaciones de frescura, limpieza y conexión con la naturaleza digital.
+
+RGB: 34, 163, 145
+
+HSB (Hue-Saturation-Brightness): 171°, 79%, 64%
+
+CMYK: 79%, 0%, 11%, 36%
+
+Este color fue elegido no solo por su atractivo visual, sino por su versatilidad cromática: funciona igual de bien en fondos sólidos que en degradados modernos o interfaces limpias. Es ideal para interfaces UI de estilo minimalista, branding artístico, y entornos donde se desea destacar autenticidad, fluidez y conexión creativa.
+
+Además, este tono tiene un excelente contraste con colores neutros (negro, blanco, gris cálido) y combina armónicamente con paletas inspiradas en el diseño retro-futurista o en la estética synthwave, donde los acentos visuales deben ser sutiles pero potentes.
+
+En el contexto de StudioKuntur, este color representa la fusión entre lo natural y lo digital, lo orgánico y lo sintético.
